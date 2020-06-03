@@ -8,7 +8,6 @@ var box1, box2, box3, box4, box5, box6;
 var slingShot,bird;
 
 function preload() {
-BackgorungImg = loadImage("bg.png")
 }
 
 function setup(){
@@ -30,7 +29,7 @@ function setup(){
 }
 
 function draw(){
-    background(BackgroungImg);
+    background("white");
     Engine.update(engine);
     strokeWeight(4);
     box1.display();
